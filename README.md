@@ -78,9 +78,12 @@ root@recon:~# go get -u github.com/OWASP/Amass/...
 
 ### Subfinder
 
-```
-root@recon:~# go get github.com/subfinder/subfinder
-root@recon:~# subfinder //test run
+The installation is easy. You can download the pre-built binaries for different platforms from the [Releases](https://github.com/projectdiscovery/subfinder/releases/) page. Extract them using tar, move it to your $PATH and you're ready to go.
+
+```bash
+> tar -xzvf subfinder-linux-amd64.tar
+> mv subfinder-linux-amd64 /usr/bin/subfinder
+> subfinder 
 ```
 
 ### Subdomains by censys
